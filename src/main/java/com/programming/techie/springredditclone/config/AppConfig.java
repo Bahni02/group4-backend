@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import javax.validation.constraints.NotNull;
 
-@Componentg
+@Component
 @EnableConfigurationProperties
 @ConfigurationProperties(prefix = "app")
 public class AppConfig {
